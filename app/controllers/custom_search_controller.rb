@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'google/apis/customsearch_v1'
+
 # custom_search
 class CustomSearchController < ApplicationController
   protect_from_forgery
