@@ -1,2 +1,24 @@
-<h1>CustomSearch#index</h1>
-<p>Find me in app/views/custom_search/index.html.erb</p>
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="contents_root">
+    <details class="contents_header" open>
+        <summary>Search</summary>
+        <form class="search_container" method="dialog">
+            <input type="text" placeholder="GoogleAPIで検索" id="keywords_textbox" name="keywords_textbox">
+            <input type="submit" value="&#xf002" id="button_search" name="button_search">
+        </form>
+    </details>
+
+    <ul class="search_result_container" id="search_result"></ul>
+
+    <details class="contents_footer">
+        <summary>token</summary>
+        <input type="text" placeholder="activator-key" id="activatorkey_textbox" name="activatorkey_textbox">
+    </details>
+</div>
+
+<div class="loader_container" style="display:none;" id="loader_container">
+    <div class="loader">Loading...</div>
+</div>
+
+<%= javascript_pack_tag 'custom_search' %>
