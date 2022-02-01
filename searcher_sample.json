@@ -1,0 +1,469 @@
+{
+    "context": {
+        "title": "Google"
+    },
+    "items": [
+        {
+            "cache_id": "N-XAIKUzllYJ",
+            "display_link": "rubyonrails.org",
+            "formatted_url": "https://rubyonrails.org/",
+            "html_formatted_url": "https://<b>rubyonrails</b>.org/",
+            "html_snippet": "<b>Rails</b> is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end. Rendering HTML templates, updating&nbsp;...",
+            "html_title": "<b>Ruby on Rails</b> — A web-app framework that includes everything ...",
+            "kind": "customsearch#result",
+            "link": "https://rubyonrails.org/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQMev1dbCaCrAQ2e1YdVFIqgU1cjdVWRplrtciLXMglVTLzZKVClj28uA5f",
+                        "width": "310",
+                        "height": "163"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://rubyonrails.org/assets/images/opengraph.png",
+                        "og:type": "website",
+                        "twitter:title": "Ruby on Rails",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Ruby on Rails",
+                        "handheldfriendly": "true",
+                        "og:title": "Ruby on Rails",
+                        "og:description": "A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+                        "twitter:creator": "@rails",
+                        "twitter:image": "https://rubyonrails.org/assets/images/opengraph.png",
+                        "twitter:image:alt": "Ruby on Rails",
+                        "viewport": "initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width",
+                        "twitter:description": "A web-app framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.",
+                        "og:url": "https://rubyonrails.org/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://rubyonrails.org/assets/images/opengraph.png"
+                    }
+                ]
+            },
+            "snippet": "Rails is a full-stack framework. It ships with all the tools needed to build amazing web apps on both the front and back end. Rendering HTML templates, updating ...",
+            "title": "Ruby on Rails — A web-app framework that includes everything ..."
+        },
+        {
+            "cache_id": "5kaiO1sII8cJ",
+            "display_link": "en.wikipedia.org",
+            "formatted_url": "https://en.wikipedia.org/wiki/Ruby_on_Rails",
+            "html_formatted_url": "https://en.wikipedia.org/wiki/<b>Ruby_on_Rails</b>",
+            "html_snippet": "<b>Ruby on Rails</b>, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework,&nbsp;...",
+            "html_title": "<b>Ruby on Rails</b> - Wikipedia",
+            "kind": "customsearch#result",
+            "link": "https://en.wikipedia.org/wiki/Ruby_on_Rails",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqd9NvJJuzlIcNnSgPz9M6RV3ZXwM9b3OcSbImk_tOd1mYOgbgYou18w",
+                        "width": "366",
+                        "height": "138"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "referrer": "origin",
+                        "og:image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png",
+                        "og:image:width": "1200",
+                        "og:type": "website",
+                        "og:title": "Ruby on Rails - Wikipedia",
+                        "og:image:height": "453",
+                        "format-detection": "telephone=no"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png"
+                    }
+                ]
+            },
+            "snippet": "Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller (MVC) framework, ...",
+            "title": "Ruby on Rails - Wikipedia"
+        },
+        {
+            "cache_id": "C-o_vv4mIGgJ",
+            "display_link": "guides.rubyonrails.org",
+            "formatted_url": "https://guides.rubyonrails.org/getting_started.html",
+            "html_formatted_url": "https://guides.<b>rubyonrails</b>.org/getting_started.html",
+            "html_snippet": "<b>Rails</b> is a web application development framework written in the <b>Ruby</b> programming language. It is designed to make programming web applications easier by making&nbsp;...",
+            "html_title": "Getting Started with Rails — <b>Ruby on Rails</b> Guides",
+            "kind": "customsearch#result",
+            "link": "https://guides.rubyonrails.org/getting_started.html",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXZe46sJsZUx9338zy13nmp76-GvTZwLXW-VPmRcQTBGXJcdWUPKwOopg",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://avatars.githubusercontent.com/u/4223",
+                        "og:type": "website",
+                        "og:site_name": "Ruby on Rails Guides",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:title": "Getting Started with Rails — Ruby on Rails Guides",
+                        "og:locale": "en_US",
+                        "og:description": "Getting Started with RailsThis guide covers getting up and running with Ruby on Rails.After reading this guide, you will know: How to install Rails, create a new Rails application, and connect your application to a database. The general layout of a Rails application. The basic principles of MVC (Model, View, Controller) and RESTful design. How to quickly generate the starting pieces of a Rails application."
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://avatars.githubusercontent.com/u/4223"
+                    }
+                ]
+            },
+            "snippet": "Rails is a web application development framework written in the Ruby programming language. It is designed to make programming web applications easier by making ...",
+            "title": "Getting Started with Rails — Ruby on Rails Guides"
+        },
+        {
+            "cache_id": "3ih2phLrgU8J",
+            "display_link": "github.com",
+            "formatted_url": "https://github.com/rails/rails",
+            "html_formatted_url": "https://github.com/<b>rails</b>/<b>rails</b>",
+            "html_snippet": "<b>Rails</b> is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC)&nbsp;...",
+            "html_title": "rails/rails: Ruby on Rails - GitHub",
+            "kind": "customsearch#result",
+            "link": "https://github.com/rails/rails",
+            "pagemap": {
+                "softwaresourcecode": [
+                    {
+                        "license": "MIT-LICENSE",
+                        "author": "rails",
+                        "name": "rails",
+                        "text": "Welcome to Rails What's Rails? Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern...."
+                    }
+                ],
+                "metatags": [
+                    {
+                        "octolytics-url": "https://collector.githubapp.com/github/collect",
+                        "apple-itunes-app": "app-id=1477376905",
+                        "og:image": "https://opengraph.githubassets.com/50f8171ab2d5f1142575687c70ccbaa2fbede80353addc5d9a73769eb02a627f/rails/rails",
+                        "twitter:card": "summary_large_image",
+                        "og:image:width": "1200",
+                        "theme-color": "#1e2327",
+                        "og:site_name": "GitHub",
+                        "hovercard-subject-tag": "repository:8514",
+                        "html-safe-nonce": "f2367ec1a67a03cc85a2bff1589cd7d1829caf2ae228699248e0eb2160ee44d0",
+                        "expected-hostname": "github.com",
+                        "og:description": "Ruby on Rails. Contribute to rails/rails development by creating an account on GitHub.",
+                        "browser-errors-url": "https://api.github.com/_private/browser/errors",
+                        "octolytics-dimension-user_login": "rails",
+                        "hostname": "github.com",
+                        "twitter:site": "@github",
+                        "browser-stats-url": "https://api.github.com/_private/browser/stats",
+                        "visitor-payload": "eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJCODgxOjdBNTg6MjA2QUZEODozMTI2NjE1OjYxRjRGMDQyIiwidmlzaXRvcl9pZCI6IjE3MjA2MjAxNTU5MDI2ODUyNTAiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==",
+                        "github-keyboard-shortcuts": "repository",
+                        "octolytics-dimension-repository_id": "8514",
+                        "octolytics-dimension-repository_network_root_nwo": "rails/rails",
+                        "enabled-features": "BIDIRECTIONAL_PREVIEWABLE_COMMENTS,MARKETPLACE_PENDING_INSTALLATIONS",
+                        "twitter:title": "GitHub - rails/rails: Ruby on Rails",
+                        "og:image:alt": "Ruby on Rails. Contribute to rails/rails development by creating an account on GitHub.",
+                        "og:type": "object",
+                        "optimizely-datafile": "{\"version\": \"4\", \"rollouts\": [], \"typedAudiences\": [], \"anonymizeIP\": true, \"projectId\": \"16737760170\", \"variables\": [], \"featureFlags\": [], \"experiments\": [{\"status\": \"Running\", \"audienceIds\": [], \"variations\": [{\"variables\": [], \"id\": \"20438636352\", \"key\": \"control\"}, {\"variables\": [], \"id\": \"20484957397\", \"key\": \"treatment\"}], \"id\": \"20479227424\", \"key\": \"growth_ghec_onboarding_experience\", \"layerId\": \"20467848595\", \"trafficAllocation\": [{\"entityId\": \"20484957397\", \"endOfRange\": 1000}, {\"entityId\": \"20484957397\", \"endOfRange\": 3000}, {\"entityId\": \"20484957397\", \"endOfRange\": 5000}, {\"entityId\": \"20484957397\", \"endOfRange\": 6000}, {\"entityId\": \"20484957397\", \"endOfRange\": 8000}, {\"entityId\": \"20484957397\", \"endOfRange\": 10000}], \"forcedVariations\": {\"85e2238ce2b9074907d7a3d91d6feeae\": \"control\"}}, {\"status\": \"Running\", \"audienceIds\": [], \"variations\": [{\"variables\": [], \"id\": \"20667381018\", \"key\": \"control\"}, {\"variables\": [], \"id\": \"20680930759\", \"key\": \"treatment\"}], \"id\": \"20652570897\", \"key\": \"project_g",
+                        "og:title": "GitHub - rails/rails: Ruby on Rails",
+                        "og:image:height": "600",
+                        "visitor-hmac": "f8b99ab770108c0b259e42aaeec77809339d6d2612260a0b1bdef3652a7a1798",
+                        "request-id": "B881:7A58:206AFD8:3126615:61F4F042",
+                        "analytics-location": "/<user-name>/<repo-name>",
+                        "color-scheme": "light dark",
+                        "octolytics-dimension-repository_is_fork": "false",
+                        "go-import": "github.com/rails/rails git https://github.com/rails/rails.git",
+                        "browser-optimizely-client-errors-url": "https://api.github.com/_private/browser/optimizely_client/errors",
+                        "twitter:image:src": "https://opengraph.githubassets.com/50f8171ab2d5f1142575687c70ccbaa2fbede80353addc5d9a73769eb02a627f/rails/rails",
+                        "octolytics-dimension-user_id": "4223",
+                        "octolytics-dimension-repository_public": "true",
+                        "fb:app_id": "1401488693436528",
+                        "octolytics-dimension-repository_network_root_id": "8514",
+                        "octolytics-dimension-repository_nwo": "rails/rails",
+                        "viewport": "width=device-width",
+                        "twitter:description": "Ruby on Rails. Contribute to rails/rails development by creating an account on GitHub.",
+                        "og:url": "https://github.com/rails/rails"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://opengraph.githubassets.com/50f8171ab2d5f1142575687c70ccbaa2fbede80353addc5d9a73769eb02a627f/rails/rails"
+                    }
+                ]
+            },
+            "snippet": "Rails is a web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) ...",
+            "title": "rails/rails: Ruby on Rails - GitHub"
+        },
+        {
+            "cache_id": "NKZg9QWG6zQJ",
+            "display_link": "guides.rubyonrails.org",
+            "formatted_url": "https://guides.rubyonrails.org/",
+            "html_formatted_url": "https://guides.<b>rubyonrails</b>.org/",
+            "html_snippet": "<b>Ruby on Rails</b> Guides. ... Rails Guides are also available for Kindle. Guides marked with this icon are currently being worked on and will not be available&nbsp;...",
+            "html_title": "<b>Ruby on Rails</b> Guides",
+            "kind": "customsearch#result",
+            "link": "https://guides.rubyonrails.org/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXZe46sJsZUx9338zy13nmp76-GvTZwLXW-VPmRcQTBGXJcdWUPKwOopg",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://avatars.githubusercontent.com/u/4223",
+                        "og:type": "website",
+                        "og:site_name": "Ruby on Rails Guides",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:title": "Ruby on Rails Guides",
+                        "og:locale": "en_US",
+                        "og:description": "Ruby on Rails Guides"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://avatars.githubusercontent.com/u/4223"
+                    }
+                ]
+            },
+            "snippet": "Ruby on Rails Guides. ... Rails Guides are also available for Kindle. Guides marked with this icon are currently being worked on and will not be available ...",
+            "title": "Ruby on Rails Guides"
+        },
+        {
+            "cache_id": "ybneOug8850J",
+            "display_link": "api.rubyonrails.org",
+            "formatted_url": "https://api.rubyonrails.org/",
+            "html_formatted_url": "https://api.<b>rubyonrails</b>.org/",
+            "html_snippet": "Rails is a web-application framework that includes everything needed to create ... Please check out the Contributing to <b>Ruby on Rails</b> guide for guidelines&nbsp;...",
+            "html_title": "<b>Ruby on Rails</b> API",
+            "kind": "customsearch#result",
+            "link": "https://api.rubyonrails.org/",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "viewport": "width=device-width,initial-scale=1",
+                        "data-rel-prefix": "./",
+                        "data-tree-keys": "[]"
+                    }
+                ]
+            },
+            "snippet": "Rails is a web-application framework that includes everything needed to create ... Please check out the Contributing to Ruby on Rails guide for guidelines ...",
+            "title": "Ruby on Rails API"
+        },
+        {
+            "cache_id": "Oj5lAhYNOT8J",
+            "display_link": "www.railstutorial.org",
+            "formatted_url": "https://www.railstutorial.org/book",
+            "html_formatted_url": "https://www.<b>rails</b>tutorial.org/book",
+            "html_snippet": "<b>Ruby on Rails</b> (or just “Rails” for short) is a free and open-source web development framework written in the Ruby programming language. Upon its debut, <b>Ruby on</b>&nbsp;...",
+            "html_title": "<b>Ruby on Rails</b> Tutorial | Learn Enough to Be Dangerous",
+            "kind": "customsearch#result",
+            "link": "https://www.railstutorial.org/book",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ-uw2lUMk4LCbkSl77DpiFkvTH0xCJt57p-hzKSBbB6hmK23lf19NV7ljn",
+                        "width": "183",
+                        "height": "275"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_6th_edition/images/cover-web.png",
+                        "og:image:width": "500",
+                        "og:site_name": "Softcover.io",
+                        "twitter:widgets:csp": "on",
+                        "og:title": "Ruby on Rails Tutorial",
+                        "og:image:height": "500",
+                        "og:image:type": "image/png",
+                        "book_id": "319",
+                        "csrf-param": "authenticity_token",
+                        "og:description": "Newly updated for Rails 6, the Ruby on Rails Tutorial book and screencast series teach you how to develop and deploy real, industrial-strength web applications with Ruby on Rails, the open-source web framework that powers top websites such as GitHub, Hulu, Shopify, and Airbnb. The Ruby on Rails Tutorial book is available for purchase as an ebook (PDF, EPUB, and MOBI formats). The companion screencast series includes 14 individual lessons, one for each chapter of the Ruby on Rails Tutorial book.",
+                        "og:image:secure_url": "https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_6th_edition/images/cover-web.png",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "csrf-token": "nGe2i6WvFmnI4WuuMHxDp6Fzon4TuCbe/nbbZrwmMfmoG78TznEtnvOTuRbXYN9UnIW0g2KP6XdfiZ8kYLWl4g==",
+                        "og:url": "http://www.railstutorial.org"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_6th_edition/images/cover-web.png"
+                    }
+                ]
+            },
+            "snippet": "Ruby on Rails (or just “Rails” for short) is a free and open-source web development framework written in the Ruby programming language. Upon its debut, Ruby on ...",
+            "title": "Ruby on Rails Tutorial | Learn Enough to Be Dangerous"
+        },
+        {
+            "cache_id": "3eM2DdrGSHUJ",
+            "display_link": "edgeguides.rubyonrails.org",
+            "formatted_url": "https://edgeguides.rubyonrails.org/active_record_migrations.html",
+            "html_formatted_url": "https://edgeguides.<b>rubyonrails</b>.org/active_record_migrations.html",
+            "html_snippet": "The <b>rails</b> commands that manipulate migrations and your schema. ... migrations allow you to use a <b>Ruby</b> DSL to describe changes to your tables.",
+            "html_title": "Active Record Migrations — <b>Ruby on Rails</b> Guides",
+            "kind": "customsearch#result",
+            "link": "https://edgeguides.rubyonrails.org/active_record_migrations.html",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "og:image": "https://avatars.githubusercontent.com/u/4223",
+                        "og:type": "website",
+                        "og:site_name": "Ruby on Rails Guides",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:title": "Active Record Migrations — Ruby on Rails Guides",
+                        "og:locale": "en_US",
+                        "og:description": "Active Record MigrationsMigrations are a feature of Active Record that allows you to evolve your database schema over time. Rather than write schema modifications in pure SQL, migrations allow you to use a Ruby DSL to describe changes to your tables.After reading this guide, you will know: The generators you can use to create them. The methods Active Record provides to manipulate your database. The rails commands that manipulate migrations and your schema. How migrations relate to schema.rb."
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://avatars.githubusercontent.com/u/4223"
+                    }
+                ]
+            },
+            "snippet": "The rails commands that manipulate migrations and your schema. ... migrations allow you to use a Ruby DSL to describe changes to your tables.",
+            "title": "Active Record Migrations — Ruby on Rails Guides"
+        },
+        {
+            "cache_id": "-jj77Nh3YfAJ",
+            "display_link": "www.jetbrains.com",
+            "formatted_url": "https://www.jetbrains.com/ruby/",
+            "html_formatted_url": "https://www.jetbrains.com/<b>ruby</b>/",
+            "html_snippet": "The <b>Ruby</b> and <b>Rails</b> IDE with first-class support for <b>Ruby</b> and <b>Rails</b>, JavaScript and CoffeeScript, ERB and HAML, CSS, Sass and Less, and more.",
+            "html_title": "RubyMine: The <b>Ruby on Rails</b> IDE by JetBrains",
+            "kind": "customsearch#result",
+            "link": "https://www.jetbrains.com/ruby/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToBvqJPcJgU0zYMgdOiBcwDMvzqk1VZvqsbaMOitL03UBpHrSVTzssBHE",
+                        "width": "284",
+                        "height": "177"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "application-name": "JetBrains",
+                        "msapplication-tilecolor": "#000000",
+                        "image": "https://resources.jetbrains.com/storage/products/rubymine/img/meta/preview.png",
+                        "og:image": "https://resources.jetbrains.com/storage/products/rubymine/img/meta/preview.png",
+                        "theme-color": "#000000",
+                        "og:type": "website",
+                        "twitter:title": "RubyMine: The Ruby on Rails IDE by JetBrains",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "JetBrains",
+                        "apple-mobile-web-app-title": "JetBrains",
+                        "og:title": "RubyMine: The Ruby on Rails IDE by JetBrains",
+                        "twitter:label1": "Platforms:",
+                        "og:description": "The Ruby and Rails IDE with first-class support for Ruby and Rails, JavaScript and CoffeeScript, ERB and HAML, CSS, Sass and Less, and more.",
+                        "twitter:creator": "@rubymine",
+                        "twitter:data1": "Windows, macOS, Linux",
+                        "twitter:image:src": "https://resources.jetbrains.com/storage/products/rubymine/img/meta/preview.png",
+                        "twitter:site": "@rubymine",
+                        "viewport": "width=device-width, maximum-scale=1",
+                        "twitter:description": "The Ruby and Rails IDE with first-class support for Ruby and Rails, JavaScript and CoffeeScript, ERB and HAML, CSS, Sass and Less, and more.",
+                        "og:url": "https://www.jetbrains.com/ruby/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://resources.jetbrains.com/storage/products/rubymine/img/meta/preview.png"
+                    }
+                ]
+            },
+            "snippet": "The Ruby and Rails IDE with first-class support for Ruby and Rails, JavaScript and CoffeeScript, ERB and HAML, CSS, Sass and Less, and more.",
+            "title": "RubyMine: The Ruby on Rails IDE by JetBrains"
+        },
+        {
+            "cache_id": "zezF-ZxPr2wJ",
+            "display_link": "www.codecademy.com",
+            "formatted_url": "https://www.codecademy.com/learn/learn-rails",
+            "html_formatted_url": "https://www.codecademy.com/learn/learn-<b>rails</b>",
+            "html_snippet": "As one of the most powerful ways to quickly develop web applications, <b>Ruby on Rails</b> has a high relevance and demand in today&#39;s marketplace.",
+            "html_title": "Learn <b>Ruby on Rails</b> | Codecademy",
+            "kind": "customsearch#result",
+            "link": "https://www.codecademy.com/learn/learn-rails",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSeSIzcQrS7QZR5tfWx0hp68RbiAbhL4M6L3ex3chvuPb_xApS7BXx19h5w",
+                        "width": "310",
+                        "height": "163"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=1376029326",
+                        "og:image": "https://images.codecademy.com/social/logo-codecademy-social.png",
+                        "theme-color": "#10162F",
+                        "fb:profile_id": "codecademy",
+                        "og:type": "article",
+                        "twitter:card": "summary",
+                        "twitter:title": "Ruby on Rails Tutorial: Learn Ruby on Rails | Codecademy",
+                        "og:site_name": "Codecademy",
+                        "og:title": "Ruby on Rails Tutorial: Learn Ruby on Rails | Codecademy",
+                        "csrf-param": "authenticity_token",
+                        "og:description": "Utilize our Ruby on Rails tutorial to learn the basics of building applications with a convenient, powerful web development framework. Leverage your skills to become a future Ruby on Rails Developer!",
+                        "twitter:image": "https://images.codecademy.com/social/logo-codecademy-social.png",
+                        "fb:app_id": "212500508799908",
+                        "twitter:site": "@codecademy",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "twitter:description": "Utilize our Ruby on Rails tutorial to learn the basics of building applications with a convenient, powerful web development framework. Leverage your skills to become a future Ruby on Rails Developer!",
+                        "csrf-token": "ewW1hlIj4meRgT5ixxb1DqqBntXbf3oJi49T8XvURH9jrw6hnOh7TSj0u7E81/AUA/22bh55XviJhPqE+YY7bw==",
+                        "og:rich_attachment": "true",
+                        "og:url": "https://www.codecademy.com/learn/learn-rails"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.codecademy.com/social/logo-codecademy-social.png"
+                    }
+                ]
+            },
+            "snippet": "As one of the most powerful ways to quickly develop web applications, Ruby on Rails has a high relevance and demand in today's marketplace.",
+            "title": "Learn Ruby on Rails | Codecademy"
+        }
+    ],
+    "kind": "customsearch#search",
+    "queries": {
+        "next_page": [
+            {
+                "count": 10,
+                "cx": "4fbe3f29a38b68b81",
+                "input_encoding": "utf8",
+                "output_encoding": "utf8",
+                "safe": "off",
+                "search_terms": "Ruby on rails",
+                "start_index": 11,
+                "title": "Google Custom Search - Ruby on rails",
+                "total_results": 32300000
+            }
+        ],
+        "request": [
+            {
+                "count": 10,
+                "cx": "4fbe3f29a38b68b81",
+                "input_encoding": "utf8",
+                "output_encoding": "utf8",
+                "safe": "off",
+                "search_terms": "Ruby on rails",
+                "start_index": 1,
+                "title": "Google Custom Search - Ruby on rails",
+                "total_results": 32300000
+            }
+        ]
+    },
+    "search_information": {
+        "formatted_search_time": "0.50",
+        "formatted_total_results": "32,300,000",
+        "search_time": 0.504553,
+        "total_results": "32300000"
+    },
+    "url": {
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json",
+        "type": "application/json"
+    }
+}

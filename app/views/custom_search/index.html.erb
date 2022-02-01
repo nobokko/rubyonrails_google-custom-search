@@ -12,8 +12,17 @@
     <ul class="search_result_container" id="search_result"></ul>
 
     <details class="contents_footer">
-        <summary>token</summary>
-        <input type="text" placeholder="activator-key" id="activatorkey_textbox" name="activatorkey_textbox">
+        <summary>setting</summary>
+        <div class="setting_container">
+            <label for="activatorkey_textbox">API実行時の鍵</label>
+            <input type="text" placeholder="activator-key" id="activatorkey_textbox" name="activatorkey_textbox">
+            <label for="use_dummy">ダミーを使用する</label>
+            <div class="toggle-switch">
+                <input id="use_dummy" type='checkbox' style="display:none;" checked />
+                <label for="use_dummy"></label>
+                <span></span>
+            </div> 
+        </div>
     </details>
 </div>
 

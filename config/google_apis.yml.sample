@@ -1,0 +1,4 @@
+shared:
+  customsearch:
+    api_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    cse_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
