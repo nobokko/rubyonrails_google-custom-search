@@ -1,0 +1,12 @@
+!log
+!public/packs
+!tmp/pids/
+!tmp/pids/.keep
+.solargraph.yml
+.vscode/*
+docker-compose.yml
+Dockerfile
+log/*
+node_modules
+public/packs/*
+tmp/*

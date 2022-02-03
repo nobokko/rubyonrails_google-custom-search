@@ -25,6 +25,14 @@ module RubyonrailsGoogleCustomSearch
     config.load_defaults 6.1
     config.x.google_apis = config_for(:google_apis)
 
+    # google cloud run setting.
+    config.hosts << 'rubyonrailsgoogle-custom-search-dj3bvuqbva-an.a.run.app'
+    config.hosts << 'localhost'
+
+    # Disable serving static files from the `/public` folder by default since
+    # Apache or NGINX already handles this.
+    config.public_file_server.enabled = true
+
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
