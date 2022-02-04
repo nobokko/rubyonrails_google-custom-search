@@ -19,22 +19,43 @@ class CustomSearchController < ApplicationController
   def index; end
 
   def search
-    if 'false'.eql?(params[:usedummy])
-      results = search_from_google_apis(params[:keywords])
-    else
-      file = File.open('searcher_sample.json')
-      results = JSON.parse(file.read)
-    end
+    results = if 'false'.eql?(params[:usedummy])
+                search_from_google_apis(params[:keywords], params[:start])
+              else
+                search_from_dummy_file('searcher_sample.json')
+              end
     render json: { keywords: params[:keywords], activatorkey: params[:activatorkey], usedummy: params[:usedummy],
                    results: results }
   end
 
   private
 
-  def search_from_google_apis(query)
+  # @param [String] query
+  #   Query
+  # @param [Fixnum] start
+  #   The index of the first result to return. The default number of results per
+  #   page is 10, so `&start=11` would start at the top of the second page of
+  #   results. **Note**: The JSON API will never return more than 100 results, even
+  #   if more than 100 documents match the query, so setting the sum of `start + num`
+  #   to a number greater than 100 will produce an error. Also note that the
+  #   maximum value for `num` is 10.
+  def search_from_google_apis(query, start = nil)
     searcher = Google::Apis::CustomsearchV1::CustomSearchAPIService.new
     searcher.key = @api_key
 
-    searcher.list_cses(q: query, cx: @cse_key)
+    result = searcher.list_cses(q: query, cx: @cse_key, start: start)
+  rescue Google::Apis::RateLimitError => e
+    result = { error: e }
+  rescue Google::Apis::AuthorizationError => e
+    result = { error: e }
+  rescue StandardError => e
+    result = { error: e }
+  ensure
+    result
+  end
+
+  def search_from_dummy_file(filename)
+    file = File.open(filename)
+    JSON.parse(file.read)
   end
 end
