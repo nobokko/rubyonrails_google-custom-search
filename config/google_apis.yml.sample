@@ -1,4 +1,7 @@
 shared:
   customsearch:
-    api_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    # api_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     cse_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
+    api_encrypt_iv: 'okOGOvfVQ6a5l40WtJZ6hw=='
+    encrypt_api_key: 'gmk/ZfpIkF53yhoWNfNDSg=='
+

@@ -52,6 +52,10 @@ module CustomSearchHelper
     key = Base64.decode64(base64_key)
     iv = Base64.decode64(base64_iv)
     encrypted_data = Base64.decode64(base64_encrypted_data)
-    decrypt(key, iv, encrypted_data)
+    data = decrypt(key, iv, encrypted_data)
+  rescue ArgumentError => e
+    data = ''
+  ensure
+    data
   end
 end
