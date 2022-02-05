@@ -28,6 +28,11 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # test framework
   gem 'rspec-rails', '~> 5.1.0'
+  gem 'rubocop-minitest', '~> 0.17.1'
+  gem 'rubocop-packaging', '~> 0.5.1'
+  gem 'rubocop-performance', '~> 1.13.2'
+  gem 'rubocop-rails', '~> 2.13.2'
+  gem 'rubocop-rspec', '~> 2.8.0'
 end
 
 group :development do
