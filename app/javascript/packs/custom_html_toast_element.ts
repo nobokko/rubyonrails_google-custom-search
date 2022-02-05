@@ -5,8 +5,7 @@ import html from './custom_html_toast.html';
  */
 export default class CustomHTMLToastElement extends HTMLElement {
     /**
-     * テンプレート
-     * @returns テンプレート
+     * コンストラクタ
      */
     constructor() {
         super();
@@ -37,12 +36,19 @@ export default class CustomHTMLToastElement extends HTMLElement {
         return template.content;
     }
 
+    /**
+     * 変更検知対象の属性
+     */
     static get observedAttributes() {
         return [
             'message',
             'message-type',
         ];
     }
+
+    /**
+     * connectedCallback
+     */
     connectedCallback() {
         const root = this.shadowRoot.getElementById('root');
         const height = root.offsetHeight;
@@ -73,6 +79,13 @@ export default class CustomHTMLToastElement extends HTMLElement {
             this.dispatchEvent(new Event('click'));
         }, 3000);
     }
+
+    /**
+     * attributeChangedCallback
+     * @param name 属性名
+     * @param oldValue 変更前
+     * @param newValue 変更後
+     */
     attributeChangedCallback(name, oldValue, newValue) {
         switch (name.toLowerCase()) {
             case 'message':

@@ -18,8 +18,10 @@ class CustomSearchController < ApplicationController
     @encrypt_api_key = Rails.configuration.x.google_apis.customsearch[:encrypt_api_key]
   end
 
+  # /|/index
   def index; end
 
+  # /search
   def search
     results = if 'false'.eql?(params[:usedummy])
                 api_key = CustomSearchHelper.base64decode_and_decrypt(
@@ -50,7 +52,7 @@ class CustomSearchController < ApplicationController
     searcher = Google::Apis::CustomsearchV1::CustomSearchAPIService.new
     searcher.key = api_key
 
-    result = searcher.list_cses(q: query, cx: @cse_key, start: start)
+    result = searcher.list_cses(q: query, cx: @cse_key, start: start, cr: 'countryJP', hl: 'ja', lr: 'lang_ja')
   rescue Google::Apis::RateLimitError => e
     result = { error: e }
   rescue Google::Apis::AuthorizationError => e
@@ -61,6 +63,9 @@ class CustomSearchController < ApplicationController
     result
   end
 
+  # get dummy result instead of Google API
+  # @param [String] filename
+  #   dummy result's file
   def search_from_dummy_file(filename)
     file = File.open(filename)
     JSON.parse(file.read)

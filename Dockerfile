@@ -4,21 +4,12 @@ RUN apt-get update -qq && apt-get install -y \
     nodejs \
     npm \
     && npm install -g yarn \
+    && gem install rails -v "6.1.4.1" -N \
     && echo end
-RUN gem install rails -v "6.1.4.1" -N
 
 ENV RAILS_ENV=production
 
 WORKDIR /usr/src/app
-# RUN rails _6.1.4.1_ new . \
-#     --force \
-#     --skip-action-mailer \
-#     --skip-action-mailbox \
-#     --skip-test \
-#     --skip-system-test \
-#     --skip-active-record \
-#     --webpack=typescript \
-#     && echo end
 COPY . ./
 RUN bundle config set --local without 'test development' \
     && bundle install \
