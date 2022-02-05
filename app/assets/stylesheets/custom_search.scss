@@ -159,6 +159,43 @@ html {
 }
 
 // other
+.has-shadow {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.button {
+  box-sizing: border-box;
+  border: 1px solid #999;
+  padding: 3px 10px;
+  border-radius: 20px;
+
+  height: 2.3em;
+  width: 260px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  &.search {
+    position: relative;
+
+    &:after {
+      position: absolute;
+      right: 20px;
+
+      font-family: FontAwesome;
+      font-size: 1.3em;
+      color: #3879D9;
+
+      content: '\f002';
+
+      text-align: right;
+      float: right;
+    }
+  }
+}
 
 .loader_container {
   position: fixed;
@@ -194,7 +231,7 @@ html {
 }
 
 .search_result_container {
-  max-width: clamp(100vw,100vw,1000px);
+  max-width: clamp(100vw, 100vw, 1000px);
 
   display: flex;
   flex-wrap: wrap;

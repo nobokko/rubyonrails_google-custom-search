@@ -29,7 +29,7 @@ export default class CustomHTMLCardElement extends HTMLElement {
             min-height: 33vh;
             border-radius: 8px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             transform: scale(1);
             transition: 0.5s;
         }

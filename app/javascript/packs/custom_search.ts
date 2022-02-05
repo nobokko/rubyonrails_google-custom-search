@@ -97,8 +97,13 @@ const appendContinueButton = (continueListenerFactory: (continue_button: HTMLEle
     if (json?.results?.queries?.next_page) {
         const li = document.createElement('li');
         li.classList.add('continue_button');
-        li.innerText = '続きを読み込む';
-        li.addEventListener('click', continueListenerFactory(li, json));
+        const div = document.createElement('div');
+        div.innerText = '続きを読み込む'
+        div.classList.add('button');
+        div.classList.add('search');
+        div.classList.add('has-shadow');
+        div.addEventListener('click', continueListenerFactory(li, json));
+        li.appendChild(div);
         search_result.appendChild(li);
     }
 };
