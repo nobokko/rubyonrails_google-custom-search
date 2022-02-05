@@ -12,10 +12,7 @@ ENV RAILS_ENV=production
 WORKDIR /usr/src/app
 COPY . ./
 RUN bundle config set --local without 'test development' \
-    && bundle install \
-    && bundle exec rails assets:clobber \
-    && bundle exec rails assets:precompile \
-    && chmod +x /usr/src/app/bin/start \
+    && sh /usr/src/app/bin/init \
     && echo end
 
 EXPOSE 3000

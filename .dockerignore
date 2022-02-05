@@ -9,4 +9,6 @@ Dockerfile
 log/*
 node_modules
 public/packs/*
+readme_images/*
+README.md
 tmp/*
