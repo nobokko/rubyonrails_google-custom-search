@@ -7,7 +7,17 @@ include:
 exclude:
 - spec/**/*
 - test/**/*
-require: []
+require: # https://github.com/castwide/solargraph/issues/87
+- actioncable
+- actionmailer
+- actionpack
+- actionview
+- activejob
+- activemodel
+- activerecord
+- activestorage
+- activesupport
+- rails_helper
 domains: []
 reporters:
 - rubocop
