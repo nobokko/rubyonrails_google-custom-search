@@ -1,0 +1,21 @@
+<style>
+    #root {
+        position: fixed;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+        transition: 0.5s;
+    }
+
+    #root.error {
+        background: red;
+    }
+
+    #root.info {
+        background: green;
+    }
+</style>
+<div id="root" class="error">
+    <div id="messsage"></div>
+</div>
