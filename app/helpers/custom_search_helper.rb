@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require 'openssl'
-require 'base64'
+require "openssl"
+require "base64"
 
 # custom_search
 module CustomSearchHelper
@@ -14,7 +14,7 @@ module CustomSearchHelper
   # @return [Cipher] AES-256-CBC Cipher
   #
   def self.aes256cbc
-    OpenSSL::Cipher.new('AES-256-CBC')
+    OpenSSL::Cipher.new("AES-256-CBC")
   end
 
   #
@@ -124,7 +124,7 @@ module CustomSearchHelper
     encrypted_data = Base64.decode64(base64_encrypted_data)
     data = decrypt(key, iv, encrypted_data)
   rescue ArgumentError => e
-    data = ''
+    data = ""
   ensure
     data
   end
