@@ -6,7 +6,7 @@ customElements.define('searchresult-card', CustomHTMLCardElement);
 import CustomHTMLToastElement from './custom_html_toast_element';
 customElements.define('searchresult-toast', CustomHTMLToastElement);
 
-const button_search = document.getElementById('button_search') as HTMLInputElement;
+const search_form = document.getElementById('search_form') as HTMLFormElement;
 const loader_container = document.getElementById('loader_container') as HTMLElement;
 const keywords_textbox = document.getElementById('keywords_textbox') as HTMLInputElement;
 const activatorkey_textbox = document.getElementById('activatorkey_textbox') as HTMLInputElement;
@@ -35,7 +35,7 @@ const loading = (callableFunction: () => Promise<any>) => {
     ]).then(([any]) => {
         loader_container.style.display = 'none';
         return any;
-    }, ([error]) => {
+    }, (error) => {
         loader_container.style.display = 'none';
         return error;
     });
@@ -82,9 +82,12 @@ const appendSearchResultItem = (item: TypeGoogleApiCustomSearchResultItem, timin
  */
 const appendSearchResultList = (json) => {
     let timing = 50;
-    for (const item of json?.results?.items as TypeGoogleApiCustomSearchResultItem[]) {
-        appendSearchResultItem(item, timing);
-        timing += 50;
+    const items = json?.results?.items as TypeGoogleApiCustomSearchResultItem[];
+    if (items) {
+        for (const item of items) {
+            appendSearchResultItem(item, timing);
+            timing += 50;
+        }
     }
 };
 
@@ -130,7 +133,10 @@ const fetchJsonThenDisplayResult = (body: string, continueListenerFactory: (cont
 //
 // 検索ボタン押下時の処理
 //
-button_search.addEventListener('click', ev => {
+search_form.addEventListener('submit', ev => {
+    ev.stopPropagation();
+    ev.preventDefault();
+
     // 情報の固定
     const postParams = {
         keywords: keywords_textbox.value,
@@ -151,6 +157,6 @@ button_search.addEventListener('click', ev => {
 
     const body = makeFormUrlencodedBody(postParams);
 
-    return fetchJsonThenDisplayResult(body, continueListenerFactory);
+    fetchJsonThenDisplayResult(body, continueListenerFactory);
 });
 
