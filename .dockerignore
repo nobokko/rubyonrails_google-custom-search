@@ -4,6 +4,7 @@
 !tmp/pids/.keep
 .solargraph.yml
 .vscode/*
+coverage/*
 docker-compose.yml
 Dockerfile
 log/*
@@ -11,4 +12,5 @@ node_modules
 public/packs/*
 readme_images/*
 README.md
+spec/*
 tmp/*

@@ -54,11 +54,15 @@ export default class CustomHTMLCardElement extends HTMLElement {
     /**
      * initial-state クラスを取り除く
      * @param ms 取り除くまでの時間（ミリ秒）
+     * @returns Promise<void> 取り除くまで保留する
      */
     removeClassInitialState(ms: number) {
         const tag_card__root = this.shadowRoot.querySelector('.card')! as HTMLAnchorElement;
-        setTimeout(() => {
-            tag_card__root.classList.remove('initial-state');
-        }, ms);
+        return new Promise<void>((resolve, _reject) => {
+            setTimeout(() => {
+                tag_card__root.classList.remove('initial-state');
+                resolve();
+            }, ms);
+        });
     }
 }

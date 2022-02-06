@@ -11,7 +11,8 @@
         "*": ["node_modules/*", "app/javascript/*"]
     },
     "sourceMap": true,
-    "target": "ES2021",
+    "target": "ES2019",
+    "esModuleInterop": true,
     "noEmit": true
   },
   "exclude": [
