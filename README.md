@@ -44,6 +44,8 @@ config/google_apis.ymlの
 api_encrypt_ivおよびencrypt_api_keyにそれぞれiv,encryptedを設定します。
 また、keyは「API実行時の鍵」として利用者へ通知します。
 
+### 実行例：passwordを「secret」、APIキーが「apikey」の場合
+
 ```sh
 bin/rails encrypt -- --password=secret --data=apikey
 
@@ -103,6 +105,18 @@ Setttingを開くと「API実行時の鍵」「ダミーを使用する」の項
 ![続きを読み込むボタン](/readme_images/screenshot_57fffcb7-e72d-4623-9d4b-ee3899296424.png)
 
 ![続きを読み込むボタンを押した後](/readme_images/screenshot_da92a60c-bfe5-418f-b0e7-3b2c82944647.png)
+
+## 開発環境
+
+* Visual Studio Code
+    * [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
+    * [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph)
+    * [Ruby Test Explorer](https://marketplace.visualstudio.com/items?itemName=connorshea.vscode-ruby-test-adapter)
+    * [YARD Documenter](https://marketplace.visualstudio.com/items?itemName=pavlitsky.yard)
+    * [Jest Test Explorer](https://marketplace.visualstudio.com/items?itemName=kavod-io.vscode-jest-test-adapter)
+    * [Beautify css/sass/scss/less](https://marketplace.visualstudio.com/items?itemName=michelemelluso.code-beautifier)
+
+余談ですがRuby Test ExplorerとJest Test Explorerが競合ではなく共存できたのが感動しました。単一のTestingでどちらと区別なく実行できました。
 
 ## サンプルサイト
 
